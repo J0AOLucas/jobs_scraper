@@ -42,6 +42,7 @@ jobs.extend(get_google_jobs())
 jobs.extend(get_hubspot_jobs())
 jobs.extend(get_ibm_jobs())
 jobs.extend(get_oracle_jobs())
+jobs.extend(get_apple_jobs())
 
 
 cell = 2
