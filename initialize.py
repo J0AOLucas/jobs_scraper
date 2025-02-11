@@ -16,6 +16,7 @@ from google_scraping import get_google_jobs
 from hubspot import get_hubspot_jobs
 from ibm import get_ibm_jobs
 from oracle import get_oracle_jobs
+from apple import get_apple_jobs
 import pdb
 import time
 
@@ -42,6 +43,7 @@ jobs.extend(get_google_jobs())
 jobs.extend(get_hubspot_jobs())
 jobs.extend(get_ibm_jobs())
 jobs.extend(get_oracle_jobs())
+jobs.extend(get_apple_jobs())
 
 
 cell = 2
