@@ -7,9 +7,9 @@ import time
 
 def get_apple_jobs():
   chrome_options = Options()
-  #chrome_options.add_argument("--headless")
-  #chrome_options.add_argument("--disable-gpu")
-  #chrome_options.add_argument("--no-sandbox")
+  chrome_options.add_argument("--headless")
+  chrome_options.add_argument("--disable-gpu")
+  chrome_options.add_argument("--no-sandbox")
 
   url = "https://jobs.apple.com/en-us/search?location=united-states-USA&team=sales-APPST-ARSS"
 
