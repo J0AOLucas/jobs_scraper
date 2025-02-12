@@ -17,6 +17,7 @@ from hubspot import get_hubspot_jobs
 from ibm import get_ibm_jobs
 from oracle import get_oracle_jobs
 from apple import get_apple_jobs
+from netflix import get_netflix_jobs
 import pdb
 import time
 
@@ -44,6 +45,7 @@ jobs.extend(get_hubspot_jobs())
 jobs.extend(get_ibm_jobs())
 jobs.extend(get_oracle_jobs())
 jobs.extend(get_apple_jobs())
+jobs.extend(get_netflix_jobs())
 
 
 cell = 2
