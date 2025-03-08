@@ -1,9 +1,3 @@
-# pip3 install google-api-python-client google-auth-httplib2 google-auth-oauthlib gspread
-# pip install \
-#     google-api-python-client~=2.85.0 \
-#     google-auth-oauthlib~=1.0.0 \
-#     google-auth-httplib2~=0.1.0
-
 import gspread
 from google.oauth2.service_account import Credentials
 from microsoft import get_microsoft_jobs

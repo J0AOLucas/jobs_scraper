@@ -1,11 +1,3 @@
-# pip install webdriver-manager
-# pip install --upgrade webdriver-manager
-# pip install selenium webdriver-manager beautifulsoup4
-# 
-
-
-# install python.exe and select the PATH option
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
