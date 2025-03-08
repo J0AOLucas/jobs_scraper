@@ -9,9 +9,9 @@ import time
 
 def get_cisco_jobs():
     chrome_options = Options()
-    chrome_options.add_argument("--headless")
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--no-sandbox")
+    #chrome_options.add_argument("--headless")
+    #chrome_options.add_argument("--disable-gpu")
+    #chrome_options.add_argument("--no-sandbox")
 
     url = f"https://jobs.cisco.com/jobs/SearchJobs/sales?21178=%5B169482%5D&21178_format=6020&21181=%5B9013351%5D&21181_format=6023&listFilterMode=1"
 
@@ -24,7 +24,7 @@ def get_cisco_jobs():
     soup = BeautifulSoup(driver.page_source, 'html.parser')
 
     while True:
-        time.sleep(3)
+        time.sleep(10)
         soup = BeautifulSoup(driver.page_source, 'html.parser')
         job_elements = soup.find('tbody').find_all('tr')
         time.sleep(5)

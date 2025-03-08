@@ -26,7 +26,7 @@ def get_aws_jobs():
     jobs = []
     time.sleep(5)
     soup = BeautifulSoup(driver.page_source, 'html.parser')
-    pages_count = int(soup.find_all('li', 'css-lsly4i ehuj7it1')[-1].text)
+    pages_count = int(soup.find_all('li', 'css-lsly4i ehuj7it2')[-1].text)
 
     while True:
         for x in range(pages_count):
